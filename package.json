@@ -10,7 +10,7 @@
     "clean": "rm -rf dist/*",
     "build": "node build/build.js",
     "release": "npm run clean && npm run build",
-    "deploy": "cd dist && git add --all && git commit -m \"Release at $(date)\" && git push",
+    "deploy": "cd dist && git add --all && git commit -m \"Release\" && git push",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {

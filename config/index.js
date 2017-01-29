@@ -6,7 +6,7 @@ module.exports = {
     env: require('./prod.env'),
     index: path.resolve(__dirname, '../dist/index.html'),
     assetsRoot: path.resolve(__dirname, '../dist'),
-    assetsPublicPath: './365-vue-prototype/',
+    assetsPublicPath: './',
     productionSourceMap: true,
     assetsSubDirectory: 'static',
 	autoOpenBrowser: false,

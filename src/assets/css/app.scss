@@ -11,7 +11,7 @@ $breakpoints: (xs: 544px, s: 544px, m: 768px, l: 992px, xl: 1200px);
 @import "../../../node_modules/modularscale-sass/stylesheets/_modular-scale.scss";
 $ms-base: 16px;
 $ms-ratio: $major-third;
-@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans:400italic,700italic,400,700);
 
 $century-gothic-font-stack: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !default;
 $opensans-font-stack: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif !default;

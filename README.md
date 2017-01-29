@@ -1,5 +1,7 @@
 # 365 Vue Prototype
 
+[![Build Status](https://travis-ci.org/OleVik/365-vue-prototype.svg?branch=master)](https://travis-ci.org/OleVik/365-vue-prototype)
+
 A prototype site built as a single-page app with showcases and a contact-form, using [Vue](https://vuejs.org/) and the [Webpack-template](https://github.com/vuejs-templates/webpack).
 
 ## Build Setup
