@@ -18,10 +18,10 @@ $opensans-font-stack: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-seri
 
 @font-face {
   font-family: 'Chunkfive';
-  src: url('~/static/fonts/Chunkfive-webfont.eot#') format('eot'),
-     url('~/static/fonts/Chunkfive-webfont.woff') format('woff'),
-     url('~/static/fonts/Chunkfive-webfont.ttf') format('truetype'),
-     url('~/static/fonts/Chunkfive-webfont.svg') format('svg');
+  src: url('../fonts/Chunkfive-webfont.eot#') format('eot'),
+     url('../fonts/Chunkfive-webfont.woff') format('woff'),
+     url('../fonts/Chunkfive-webfont.ttf') format('truetype'),
+     url('../fonts/Chunkfive-webfont.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }

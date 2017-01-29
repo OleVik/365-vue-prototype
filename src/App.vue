@@ -95,7 +95,7 @@ export default {
       },
       contact: {
         title: 'Contact Us',
-        action: '//flipmail.co/api/L6njatSIPIiOGZ9UUzo5',
+        action: 'https://flipmail.co/api/L6njatSIPIiOGZ9UUzo5',
         after: 'https://olevik.me/',
         replyto: '%email',
         fields: {

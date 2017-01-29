@@ -5,7 +5,7 @@
         <h2>{{ contact.title }}</h2>
       </div>
     </div>
-    <form id="contact_form" name="contact" @submit.prevent="validateBeforeSubmit" :action="contact.action" method="post" class="container">
+    <form id="contact_form" name="contact" :action="contact.action" method="post" class="container">
 
       <input type="hidden" name="_after" :value="contact.after">
       <input type="hidden" name="_replyto" :value="contact.replyto">
