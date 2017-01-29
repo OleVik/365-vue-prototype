@@ -7,7 +7,10 @@
   "license": "SEE LICENSE IN <LICENSE>",
   "scripts": {
     "dev": "node build/dev-server.js",
+    "clean": "rm -rf dist/*",
     "build": "node build/build.js",
+    "release": "npm run clean && npm run build",
+    "deploy": "cd dist && git add --all && git commit -m \"Release at $(date)\" && git push",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
