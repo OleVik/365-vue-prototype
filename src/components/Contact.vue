@@ -32,7 +32,7 @@
         <label :for="contact.fields.email.name" class="col-sm-2 col-xs-12 form-control form-control-label form-control-lg">{{ contact.fields.email.label }}</label>
         <div class="col-sm-10 col-xs-12">
           <input
-            type="text"
+            type="email"
             :id="contact.fields.email.name"
             :name="contact.fields.email.name"
             :placeholder="contact.fields.email.placeholder"
